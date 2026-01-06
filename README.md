@@ -1,4 +1,4 @@
-# 💉 Diabetes Prediction End-to-End Machine Learning Pipeline & Dashboard
+<img width="1894" height="657" alt="Screenshot (258)" src="https://github.com/user-attachments/assets/14a8f45e-d38d-4d63-9760-2a9092e8ee48" /># 💉 Diabetes Prediction End-to-End Machine Learning Pipeline & Dashboard
 
 ## **Project Overview**
 
@@ -51,8 +51,9 @@ This project delivers a **comprehensive end-to-end solution**:
     - [**3.1 Input Form \& Interactivity**](#31-input-form--interactivity)
     - [**3.2 Prediction \& Risk Visualization**](#32-prediction--risk-visualization)
     - [**3.3 Feature Contributions**](#33-feature-contributions)
-  - [**5. Screenshots**](#5-screenshots)
-  - [**7. Getting Started**](#7-getting-started)
+  - [**4. Screenshots**](#5-screenshots)
+  - [**5. Project Structure**](#4-project-structure)
+  - [**6. Getting Started**](#7-getting-started)
     - [**Clone Repository**](#clone-repository)
     - [**Install**](#install)
     - [**Run Streamlit Dashboard**](#run-streamlit-dashboard)
@@ -152,29 +153,58 @@ The Streamlit dashboard allows users to **enter minimal inputs** and get **real-
 * Helps understand **why the model predicted a certain risk**.
 
 
-## **5. Screenshots**
+## **4. Screenshots**
+
 
 **Dashboard Input Form**
-![Dashboard Input](assets/dashboard_input.png)
+![Dashboard Input_1](https://github.com/user-attachments/assets/a50ea59f-ea5e-4539-b481-95f799bd58df)
+
+![Dashboard Input_2](https://github.com/user-attachments/assets/f616e0ea-8f00-4788-b354-51a0cdeaafae)
 
 **Prediction & Risk**
-![Prediction Output](assets/prediction_output.png)
+![Prediction Output](https://github.com/user-attachments/assets/e33bce7d-b670-4511-8454-c0e43e76b20a)
 
 **Top 5 Feature Contributions**
-![Feature Contribution Chart](assets/top_features.png)
+![Feature Contribution Chart](https://github.com/user-attachments/assets/613940d8-8880-4acb-8528-f86d6036bc60)
 
+## **5. Project Structure**
 
+Here’s a clean **project structure** in Markdown format for your diabetes prediction project:
 
+```markdown
+# Project Structure
 
+```
 
+│
+├── dataset/
+│   ├── train.csv
+│   ├── test.csv
+│   └── README.md
+│
+├── models/
+│   ├── best_model.pkl
+│   └── predict_model.py
+│
+├── notebook/
+│   ├── diabetic_notebook.ipynb.ipynb
+│   
+├── utils/
+│   ├── feature_engineering.py
+│
+├── app.py
+│── requirements.txt
+├── README.md
+├── requirements.txt
+```
+```
 
-## **7. Getting Started**
+## **6. Getting Started**
 
 ### **Clone Repository**
 
 ```bash
-git clone https://github.com/yourusername/diabetes_dashboard.git
-cd diabetes_dashboard
+https://github.com/batoolarifa/diabetes-prediction-dashboard
 ```
 
 ### **Install**
