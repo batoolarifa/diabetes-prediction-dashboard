@@ -1,6 +1,7 @@
 import joblib
 import pandas as pd
 from utils.feature_engineering import create_features
+import os
 
 # MODEL_PATH = "models/best_model.pkl"
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "best_model.pkl")
