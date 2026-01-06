@@ -3,13 +3,7 @@ import pandas as pd
 import plotly.express as px
 import joblib
 from utils.feature_engineering import create_features
-
-MODEL_PATH = "models/best_model.pkl"
-
-@st.cache_resource
-def load_model():
-    model = joblib.load(MODEL_PATH)
-    return model
+from models.predict_model import load_model
 
 model = load_model()
 model_features = model.feature_name_
