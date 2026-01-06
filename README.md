@@ -1,4 +1,4 @@
-<img width="1894" height="657" alt="Screenshot (258)" src="https://github.com/user-attachments/assets/14a8f45e-d38d-4d63-9760-2a9092e8ee48" /># 💉 Diabetes Prediction End-to-End Machine Learning Pipeline & Dashboard
+# 💉 Diabetes Prediction End-to-End Machine Learning Pipeline & Dashboard
 
 ## **Project Overview**
 
