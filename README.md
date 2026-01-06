@@ -8,7 +8,6 @@ This project delivers a **comprehensive end-to-end solution**:
 
 1. **Machine Learning Pipeline**: Trains multiple gradient boosting models on tabular health data, using advanced **feature engineering** for improved predictive performance.
    
-   <br>
 2. **Interactive Dashboard**: Deploys the trained model via **Streamlit**, allowing users (patients or clinicians) to estimate diabetes risk using minimal input features, visualize top contributing factors, and receive actionable recommendations.
 
 ## **Business & Industry Value**
@@ -169,13 +168,8 @@ The Streamlit dashboard allows users to **enter minimal inputs** and get **real-
 
 ## **5. Project Structure**
 
-Here’s a clean **project structure** in Markdown format for your diabetes prediction project:
-
-```markdown
-# Project Structure
-
-```
-
+```text
+diabetes-prediction-dashboard/
 │
 ├── dataset/
 │   ├── train.csv
@@ -187,16 +181,14 @@ Here’s a clean **project structure** in Markdown format for your diabetes pred
 │   └── predict_model.py
 │
 ├── notebook/
-│   ├── diabetic_notebook.ipynb.ipynb
-│   
+│   └── diabetic_notebook.ipynb
+│
 ├── utils/
-│   ├── feature_engineering.py
+│   └── feature_engineering.py
 │
 ├── app.py
-│── requirements.txt
-├── README.md
 ├── requirements.txt
-```
+└── README.md
 ```
 
 ## **6. Getting Started**
